@@ -1,10 +1,10 @@
-# Wiremock Dynamic using Docker
+# Wiremock using Docker
 
 This project has the structure of mocked APIs, which can be used in UI automated tests or manual testing when third-party systems are down.
 
 ## 🔧 Applied technologies
 
-This project applies the framework [Wiremock](http://wiremock.org/docs/), which responses can be dynamics, used with [Docker](https://hub.docker.com/r/rodolpheche/wiremock).
+This project applies the framework [Wiremock](http://wiremock.org/docs/) used with [Docker](https://hub.docker.com/r/rodolpheche/wiremock).
 
 ## 📦 Project organization
 
