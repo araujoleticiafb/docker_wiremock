@@ -1,12 +1,12 @@
-# Wiremock using Docker
+# Wiremock Dynamic using Docker
 
-In this project contains the structure of mocked APIs used in UI automated tests or manual testing when third-party systems are down.
+This project has the structure of mocked APIs, which can be used in UI automated tests or manual testing when third-party systems are down.
 
-## Technology
+## 🔧 Applied technologies
 
-This project use the framework [Wiremock](http://wiremock.org/docs/) used as [Docker](https://hub.docker.com/r/rodolpheche/wiremock).
+This project applies the framework [Wiremock](http://wiremock.org/docs/), which responses can be dynamics, used with [Docker](https://hub.docker.com/r/rodolpheche/wiremock).
 
-## Project structure
+## 📦 Project organization
 
 The project has the following structure:
   
@@ -14,12 +14,12 @@ The project has the following structure:
       ├──[project_name]
       │  ├──stubs
       │  │  ├──__files
-      │  │  │  └──[json_body_files]
+      │  │  │  └──[json_response_files]
       │  │  ├──mappings
       │  │  │  └──[json_api_files]
   ```
 
-## Running with Docker
+## 🚀 Running with Docker
 Download and install [Docker](https://www.docker.com/products/docker-desktop).
 
 ### Build
@@ -39,7 +39,7 @@ $ docker run -it --rm -p 8443:8443 YOUR_IMAGE_NAME --https-port 8443 --verbose
 
 > **NOTE 2:** Using mock for **Android** must be https.
 
-### Some Docker command line
+### 💬 Some Docker command line
 | Command line | Explanation |
 | ------ | ------ |
 | docker system prune -a | Clear all dependecies |
